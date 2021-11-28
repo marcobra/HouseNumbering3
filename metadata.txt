@@ -17,9 +17,9 @@ changelog= 2021/11/28 v. 0.0.4 - Update plugin for release 3.xx of QGIS
 ; tags are in comma separated value format, spaces are allowed
 tags=vector,attribute,database,update,edit,field,numbering,auto,increment
 
-homepage=https://github.com/marcobra/HouseNumbering
-tracker=https://github.com/marcobra/HouseNumbering/issues
-repository=https://github.com/marcobra/HouseNumbering
+homepage=https://github.com/marcobra/HouseNumbering3
+tracker=https://github.com/marcobra/HouseNumbering3/issues
+repository=https://github.com/marcobra/HouseNumbering3
 icon=icons/housenumbering.png
 
 ; experimental flag
