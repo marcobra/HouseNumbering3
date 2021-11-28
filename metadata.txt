@@ -1,0 +1,29 @@
+; the next section is mandatory
+[general]
+name=HouseNumbering3
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
+description=HouseNumbering plugin is a quick and handy way to input increasing field value for selected elements in the current/active layer.
+about=HouseNumbering plugin is a quick and handy way to input increasing field value for selected elements in the current/active layer.
+version=version 0.0.1
+category=Plugins
+author=Marco Braida
+email=marcobra.ubuntu@gmail.com
+; end of mandatory metadata
+
+; start of optional metadata 
+changelog= 2021/11/28 v. 0.0.4 - Update plugin for release 3.xx of QGIS
+
+; tags are in comma separated value format, spaces are allowed
+tags=vector,attribute,database,update,edit,field,numbering,auto,increment
+
+homepage=https://github.com/marcobra/HouseNumbering
+tracker=https://github.com/marcobra/HouseNumbering/issues
+repository=https://github.com/marcobra/HouseNumbering
+icon=icons/housenumbering.png
+
+; experimental flag
+experimental=False
+
+; deprecated flag (applies to the whole plugin and not only to the uploaded version)
+deprecated=False
