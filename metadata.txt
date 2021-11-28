@@ -3,8 +3,8 @@
 name=HouseNumbering3
 qgisMinimumVersion=3.0
 qgisMaximumVersion=3.99
-description=HouseNumbering plugin is a quick and handy way to input increasing field value for selected elements in the current/active layer.
-about=HouseNumbering plugin is a quick and handy way to input increasing field value for selected elements in the current/active layer.
+description=HouseNumbering3 plugin is a quick and handy way to input increasing field value for selected elements in the current/active layer.
+about=HouseNumbering3 plugin is a quick and handy way to input increasing field value for selected elements in the current/active layer.
 version=version 0.0.1
 category=Plugins
 author=Marco Braida
