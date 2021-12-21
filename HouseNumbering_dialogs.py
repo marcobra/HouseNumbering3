@@ -166,12 +166,17 @@ class HouseNumbering_update_selected_dialog(QDialog, Ui_HouseNumbering_update_se
         self.iface.messageBar().pushMessage("Error", "Please select at least one feature from <b> " + layer.name() + "</b> current layer", level=QgsMessageBar.ERROR)                       
      else:
         if ( self.cBsetLabel.isChecked() ):
-         layer.setCustomProperty("labeling", "pal")
-         layer.setCustomProperty("labeling/fieldName", f_name )
-         layer.setCustomProperty("labeling/enabled", True)
+         labelSettings = QgsPalLayerSettings()
+         labelSettings.fieldName=f"{f_name}"
+         layer.setLabeling(QgsVectorLayerSimpleLabeling(labelSettings)) 
          layer.setLabelsEnabled(True)
-         layer_settings = QgsPalLayerSettings()
-         layer_settings.displayAll = True
+
+         #layer.setCustomProperty("labeling", "pal")
+         #layer.setCustomProperty("labeling/fieldName", f_name )
+         #layer.setCustomProperty("labeling/enabled", True)
+         #layer.setLabelsEnabled(True)
+         #layer_settings = QgsPalLayerSettings()
+         #layer_settings.displayAll = True
         else:
          layer.setCustomProperty("labeling/enabled", False)
 			#layer.setCustomProperty("labeling/fontSize","8" )
