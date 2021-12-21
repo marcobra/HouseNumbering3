@@ -12,9 +12,8 @@ email=marcobra.ubuntu@gmail.com
 ; end of mandatory metadata
 
 ; start of optional metadata 
-changelog= 
-2021/12/21 v. 0.0.5 - Update labelling settings 
-2021/11/28 v. 0.0.4 - Update plugin for release 3.xx of QGIS
+changelog=2021/12/21 v. 0.0.5 - Update labelling settings 
+          2021/11/28 v. 0.0.4 - Update plugin for release 3.xx of QGIS
 
 ; tags are in comma separated value format, spaces are allowed
 tags=vector,attribute,database,update,edit,field,numbering,auto,increment
